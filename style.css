@@ -1,0 +1,156 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: grey;
+    color: #fff;
+    padding: 10px;
+    text-align: right;
+}
+nav {
+    background-color: #eee;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+banner {
+    background-color: rgb(227, 216, 216);
+    color: black;
+    text-align: right;
+    padding: 10px;
+}
+button {
+    background-color: #4c70af;
+    color: white;
+    padding: 5px 5px;
+    align-items: left;
+    font-size: 8px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.container {
+    width: 100%;
+    box-sizing: border-box;
+}
+.profile-image {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-image img {
+    border-radius: 50%; 
+    width: 50px; 
+    height: 50px; 
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.row > div {
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: greenyellow; 
+    color: #fff;
+}
+
+.text-image-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.text {
+    width: 60%;
+    text-align: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.image-text-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text {
+    width: 60%;
+    text-align: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.text-image-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.text {
+    width: 60%;
+    text-align: left;
+    box-sizing: border-box;
+}
+.image {
+    width: 40%;
+    box-sizing: border-box;
+}
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+footer {
+    background-color: blue;
+}
